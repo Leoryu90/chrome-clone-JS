@@ -1,16 +1,3 @@
-let player = {
-    name: "Ryu",
-    sayhello: function (someoneName) {
-        console.log("Hi, " + someoneName + ". my name is " + this.name + ", Nice to meet you.");
-    },
-    age: 0
-    }
+const title = document.getElementById("test");
 
-player.sayhello("Lee")
-
-function inputAge(a) {
-    return a
-}
-
-player.age = inputAge(123)
-console.log(player.age)
+title.innerText = "Hello World!";

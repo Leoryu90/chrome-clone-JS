@@ -17,5 +17,5 @@ function mouseleaveh1() {
 }
 
 title.addEventListener("click", handle);
-title.addEventListener("mouseenter", mouseEnterh1);
-title.addEventListener("mouseleave", mouseleaveh1);
+title.addEventListener("mouseenter", mouseEnterh1, true);
+title.addEventListener("mouseleave", mouseleaveh1, true);
